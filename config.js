@@ -373,13 +373,13 @@ var config = {
             hidden: false,
             description: 'Back home, Jaber discovers new ways of sharing and enjoying music through social media... <br> <audio controls="controls"><source src="https://docs.google.com/uc?export=download&id=1dCwZTKggwHUsujx4PxVSKPvkMOYKItpF"></audio> <br><br> ...and discovers old colleagues. <br> <audio controls="controls"><source src="https://docs.google.com/uc?export=download&id=1y2hEwbyh9JZDsp-M2LeDMbB3tOofExfI"></audio> <br><br> Listen to the Beethoven symphony he heard on the radio: <br> <iframe src="https://open.spotify.com/embed/track/37DBrreN9VFfbImE7Sj4Pp?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
             location: {
-                center: [-95.40544, 29.71433],
-                zoom: 15.60,
+                center: [-95.40309, 29.71744],
+                zoom: 12.98,
                 pitch: 60.00,
-                bearing: -21.60
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -405,7 +405,7 @@ var config = {
             id: 'end',
             alignment: 'left',
             hidden: false,
-            description: 'Thomas Jaber\'s career has taken him across the globe, and to experience it even in a small way is a privilege. His journey shows the power of connecting throughout the world of classical music.',
+            description: 'Thomas Jaber\'s career has taken him from his beginnings in Natchez across the globe, and to experience it even in a small way is a privilege. His journey shows the power of connecting throughout the world of classical music.',
             location: {
                 center: [-91.41653, 31.55621],
                 zoom: 13.02,
@@ -414,6 +414,23 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'bonus',
+            alignment: 'full',
+            hidden: false,
+            description: 'On a closing note, enjoy one of Jaber\'s favorite pieces! <br> <iframe src="https://open.spotify.com/embed/track/10740Bf8DxzA1vxDUz50OL?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+            location: {
+                center: [-91.41653, 31.55621],
+                zoom: 13.02,
+                pitch: 45,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
